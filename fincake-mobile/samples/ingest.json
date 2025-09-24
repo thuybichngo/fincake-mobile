@@ -1,0 +1,35 @@
+[
+  {
+    "topic": "Ngân hàng và lãi suất",
+    "summary": "Tổng hợp tin nổi bật ngành ngân hàng trong ngày",
+    "articles": [
+      {
+        "title": "VCB tăng trưởng lợi nhuận quý 3",
+        "summary": "Vietcombank ghi nhận lợi nhuận vượt kỳ vọng",
+        "source_url": "https://example.com/vcb",
+        "source": "CafeF",
+        "published_at": "2024-09-30T10:00:00Z"
+      },
+      {
+        "title": "CTG mở rộng tín dụng",
+        "summary": "Tăng trưởng tín dụng ở các lĩnh vực sản xuất",
+        "source_url": "https://example.com/ctg",
+        "source": "VNExpress",
+        "published_at": "2024-09-30T09:00:00Z"
+      }
+    ]
+  },
+  {
+    "topic": "Bất động sản phục hồi",
+    "summary": "Dấu hiệu hồi phục tại các thành phố lớn",
+    "articles": [
+      {
+        "title": "Giá nhà Hà Nội tăng",
+        "summary": "Giá nhà tăng trung bình 8% trong Q3",
+        "source_url": "https://example.com/hn-house",
+        "source": "VNExpress",
+        "published_at": "2024-09-29T08:00:00Z"
+      }
+    ]
+  }
+]
