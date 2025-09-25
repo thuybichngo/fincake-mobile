@@ -15,3 +15,4 @@ CREATE POLICY "Allow all operations on users" ON users FOR ALL USING (true);
 CREATE POLICY "Allow all operations on portfolios" ON portfolios FOR ALL USING (true);
 CREATE POLICY "Allow all operations on news" ON news FOR ALL USING (true);
 CREATE POLICY "Allow all operations on chat_logs" ON chat_logs FOR ALL USING (true);
+

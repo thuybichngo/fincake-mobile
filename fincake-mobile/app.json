@@ -25,6 +25,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "FINCAKE_BE_URL": "https://api.fin.cakestudy.com"
     }
   }
 }

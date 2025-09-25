@@ -3,6 +3,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { useNavigation } from '@react-navigation/native';
 import { Text, View, StyleSheet, ScrollView, ActivityIndicator, RefreshControl, KeyboardAvoidingView, Platform, FlatList, Linking, TouchableOpacity } from 'react-native';
+import RNMarkdown from '../components/Markdown';
 import Portfolio from '../components/Portfolio';
 import { useQuery } from '@tanstack/react-query';
 import ChatBox from '../components/ChatBox';
@@ -38,7 +39,11 @@ function FinAIScreen() {
           <ScrollView style={{ flex: 1 }} contentContainerStyle={{ padding: 16, paddingBottom: 12 }}>
             {messages.map((item) => (
               <View key={item.id} style={[styles.bubble, item.role === 'user' ? styles.bubbleUser : styles.bubbleAssistant]}>
-                <Text style={styles.bubbleText}>{item.content}</Text>
+                {item.role === 'assistant' ? (
+                  <RNMarkdown content={item.content} />
+                ) : (
+                  <Text style={styles.bubbleText}>{item.content}</Text>
+                )}
               </View>
             ))}
           </ScrollView>

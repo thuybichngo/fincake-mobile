@@ -86,3 +86,4 @@ CREATE POLICY "Users can view own chat logs" ON chat_logs
 
 CREATE POLICY "Users can insert own chat logs" ON chat_logs
     FOR INSERT WITH CHECK (auth.uid() = user_id);
+

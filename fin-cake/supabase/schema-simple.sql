@@ -37,3 +37,4 @@ CREATE TABLE chat_logs (
     response JSONB NOT NULL,
     created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
 );
+

@@ -43,3 +43,4 @@ INSERT INTO news (symbol, title, summary, source_url, source, published_at) VALU
     'CafeF',
     NOW() - INTERVAL '10 hours'
 );
+
